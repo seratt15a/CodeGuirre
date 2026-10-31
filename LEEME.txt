@@ -1,0 +1,34 @@
+CodeGuirre — landing
+====================
+
+HTML, CSS y JavaScript puro. Sin dependencias, sin compilar, sin npm.
+
+COMO SUBIRLA
+------------
+Netlify  : entra en app.netlify.com/drop y arrastra esta carpeta entera.
+Vercel   : vercel.com -> Add New -> Project -> arrastra la carpeta.
+Hosting  : sube el contenido por FTP a la raiz (public_html).
+
+Las tres opciones funcionan tal cual. No hay nada que configurar.
+
+QUE TOCAR
+---------
+guion.js, primeras lineas:
+  WHATSAPP  -> tu numero, sin + ni espacios
+  MENSAJE   -> el texto que aparece ya escrito al abrir el chat
+
+estilos.css, bloque :root -> todos los colores de la marca
+
+index.html -> los textos
+
+IMPORTANTE AL PUBLICAR
+----------------------
+En index.html, og:image y twitter:image apuntan a "img/og.png".
+Cuando tengas tu dominio, cambialos por la URL completa:
+  https://tudominio.com/img/og.png
+Sin eso, la vista previa al compartir el enlace no sale en todas las apps.
+
+PENDIENTE
+---------
+- No hay precios en la web. Añadir un "desde X" filtra clientes.
+- Solo hay un proyecto (Astro Math). Un segundo caso ayudaria.
